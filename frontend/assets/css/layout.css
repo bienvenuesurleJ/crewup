@@ -1,1 +1,19 @@
-/* Layout styles - full from zip */
+/* Layout */
+.container { width: min(1120px, 100% - 2rem); margin-inline: auto; }
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(10, 12, 24, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--c-border);
+}
+.site-header__inner { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 0; }
+.brand { font-weight: 700; font-size: 1.25rem; color: var(--c-text); }
+.brand__mark { color: var(--c-accent); }
+.nav__list { display: flex; gap: 1.5rem; list-style: none; margin: 0; padding: 0; }
+.nav__link { color: var(--c-text-muted); }
+.nav__link[aria-current="page"] { color: var(--c-text); }
+.site-footer { margin-top: auto; padding: 2rem 0; border-top: 1px solid var(--c-border); color: var(--c-text-faint); text-align: center; }
+.section { padding: 3rem 0; }
+.hero { padding: 4rem 0 2rem; }
+.hero__title { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; margin: 0.5rem 0; }
+.grad { background: linear-gradient(90deg, var(--c-accent), var(--c-accent-2)); -webkit-background-clip: text; color: transparent; }
