@@ -1,0 +1,17 @@
+/* Components */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0.6rem 1.2rem; border-radius: var(--radius);
+  font-weight: 600; border: 1px solid transparent; cursor: pointer;
+}
+.btn--primary { background: var(--c-accent); color: #fff; }
+.btn--ghost { background: transparent; border-color: var(--c-border); color: var(--c-text); }
+.btn--lg { padding: 0.8rem 1.6rem; font-size: 1.05rem; }
+.card {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.eyebrow { display: inline-block; font-size: var(--fs-sm); letter-spacing: 0.05em; text-transform: uppercase; color: var(--c-accent-2); }
