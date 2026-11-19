@@ -1,0 +1,16 @@
+/* CREWUP — Design tokens
+Source unique de vérité pour l'identité visuelle.
+Univers : gaming nocturne, premium, immersif. */
+
+:root {
+  color-scheme: dark;
+  --c-bg-0: #05060d;
+  --c-bg-1: #0a0c18;
+  --c-bg-2: #10132a;
+  --c-surface: #141833;
+  --c-surface-2: #1b2042;
+  --c-overlay: rgba(5, 6, 13, 0.72);
+  --c-border: rgba(148, 163, 255, 0.14);
+  --c-border-strong: rgba(148, 163, 255, 0.3);
+  /* ... full file from zip */
+}
